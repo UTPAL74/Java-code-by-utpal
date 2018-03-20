@@ -2,6 +2,11 @@ package package1;
 
 class StaticParent{
 	
+	/*
+	 * This program demonstrate the execution flows of static block,
+	 * instance block, constructor and main method from parent to child class.
+	 */
+	
 	static int i = 9;
 	int j = 10;
 	static{

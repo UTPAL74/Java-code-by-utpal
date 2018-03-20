@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 class Distance{
 	
+	/*
+	 * This class compare the distance provided from two object.
+	 */
+	
 	private int feet;
 	private float inches;
 	

@@ -22,7 +22,8 @@ public class MiddleIndexFinder {
 		
 		for(int i = 0; i < ar.length; i++){
 			int x = i;
-			if(i == 0 && ArrayElementSum.sumOfArrayElement(ar) - ar[0] == ar[0]){
+			
+			if(i == 0 && MiddleIndexFinder.sumOfArrayElement(ar) - ar[0] == ar[0]){ 
 				index = i; break;
 			} else{
 				leftHandSum = 0; rightHandSum = 0;
@@ -45,6 +46,17 @@ public class MiddleIndexFinder {
 		return index;
 	}
 
+	/*
+	 * This method return sum of array element.
+	 */
+	private static int sumOfArrayElement(int[] a){
+		int sum = 0;
+		for(int i = 0; i < a.length; i++){
+			sum += a[i];
+		}
+		return sum;
+	}
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter number of input data :");
@@ -67,5 +79,5 @@ public class MiddleIndexFinder {
 		System.out.println("Resultant index at which sum of "
 				+ "left elements are equal to sum of right elements is : "+ index);
 		sc.close();
-	}
+	}	
 }

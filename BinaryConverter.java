@@ -2,6 +2,14 @@ package package1;
 
 public class BinaryConverter {
 	
+	/*
+	 * Convert any decimal number to binary number.
+	 * 
+	 * Ex : for decimal 13
+	 * 
+	 * output is 1101
+	 */
+	
 	public static String convertBinary(int num){
 		String binaryResult = "";
 		

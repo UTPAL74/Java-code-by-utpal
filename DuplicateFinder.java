@@ -21,7 +21,7 @@ public class DuplicateFinder {
 				if(a[i] == a[j]){
 					if(dup.contains(""+a[i]))
 						continue l1;
-					dup = ""+a[i];					
+					dup = ""+a[i];
 					System.out.print(" "+a[i]);
 					break;
 				}					

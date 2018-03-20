@@ -4,6 +4,10 @@ import java.util.Arrays;
 
 public class RotateLeft {
 	
+	/*
+	 * Returns one left rotated arrays.
+	 */
+	
 	public int[] rotateLeft3(int[] nums) {
 		  int i = 0, first = nums[0];
 		  

@@ -4,6 +4,10 @@ import java.util.Arrays;
 
 public class SortNumber {
 	
+	/*
+	 * sort the array in ascending order without using any collection.
+	 */
+	
 	public static int[] sort(int[] arr){
 		int temp = 0, length = arr.length; 
 		

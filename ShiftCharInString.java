@@ -5,6 +5,13 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ShiftCharInString {
+	
+	/*
+	 * It rotate the character in a given string with n no of times provided by user.	 * 
+	 * ex. 
+	 *  
+	 * shiftChar("utpal", 1) ---> "tpalu"
+	 */
 
 	public static String shiftChar(String str, int noOfShift){
 		char[] ch = str.toCharArray();

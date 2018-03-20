@@ -13,8 +13,8 @@ public class ArrayElementSum {
 	static int sum = 0;
 	
 	public static int sumOfArrayElement(int[] a){
-		int sum = a[0] + a[1];
-		for(int i = 2; i < a.length; i++){
+		int sum = 0;
+		for(int i = 0; i < a.length; i++){
 			sum += a[i];
 		}
 		return sum;

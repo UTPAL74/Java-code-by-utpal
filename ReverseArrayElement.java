@@ -6,6 +6,10 @@ import java.util.List;
 
 public class ReverseArrayElement {
 	
+	/*
+	 * Reverse the array element. 
+	 */
+	
 	public static int[] reverseArray(int[] nums) {
 		  int len = nums.length;
 		  int i = 0;

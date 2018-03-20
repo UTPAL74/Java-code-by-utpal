@@ -5,6 +5,10 @@ import java.util.Arrays;
 
 public class OddNum {
 	
+	/*
+	 * Returns odd number between the given range(inclusive).
+	 */
+	
 	static int[] oddNumbers(int l, int r) {
         ArrayList<Integer> ar = new ArrayList<Integer>();
         
@@ -24,7 +28,7 @@ public class OddNum {
     }
 
 	public static void main(String[] args) {
-		int [] ar = OddNum.oddNumbers(9, 50);
+		int[] ar = OddNum.oddNumbers(9, 50);
 		System.out.println(Arrays.toString(ar));
 	}
 
